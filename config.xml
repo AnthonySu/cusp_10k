@@ -4,7 +4,7 @@
 
 
 	<module name="controler">
-		<param name="outputDirectory" value="D:\pt\example\output-10k" />
+		<param name="outputDirectory" value="output-10k" />
 		<param name="firstIteration" value="0" />
 		<param name="lastIteration" value="10" />
 		<param name="eventsFileFormat" value="xml" />
@@ -19,14 +19,14 @@
 
 	<module name="plans" >
 		<param name="inputCRS" value="WGS84" />
-		<param name="inputPlansFile" value="D:\pt\example\Agenda10000Finish.xml" />
+		<param name="inputPlansFile" value="Agenda10000Finish.xml" />
 	</module>
 	<module name="network" >
-		<param name="inputNetworkFile" value="D:\pt\example\osm-all-network.xml" />
+		<param name="inputNetworkFile" value="osm-all-network.xml" />
 	</module>
 	<module name="transit">
-		<param name="transitScheduleFile" value="D:\pt\example\osm-all-schedule.xml" />
-		<param name="vehiclesFile" value="D:\pt\example\all-vehicle.xml" />
+		<param name="transitScheduleFile" value="osm-all-schedule.xml" />
+		<param name="vehiclesFile" value="all-vehicle.xml" />
 		<param name="transitModes" value="pt" />
 		<param name="useTransit" value="true" />
 	</module>
